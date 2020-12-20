@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
+	"github.com/xsephiroth/grpc-websocket-proxy/wsproxy"
 	"google.golang.org/grpc"
 	"log"
 	"net"
@@ -96,9 +97,11 @@ func main() {
 		log.Fatal("RegisterTestHandlerFromEndpoint err:",err)
 	}
 
+	wsMux := wsproxy.WebsocketProxy(mux)
+
 	httpServer:=&http.Server{
 		Addr: ":8081",
-		Handler: mux,
+		Handler: wsMux,
 	}
 	httpServer.ListenAndServe()
 }

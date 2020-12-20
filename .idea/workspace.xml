@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa7d7e2a-6765-42c6-9d01-6290ff53c321" name="Default Changelist" comment="" />
+    <list default="true" id="aa7d7e2a-6765-42c6-9d01-6290ff53c321" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/test/test.pb.gw.go" beforeDir="false" afterPath="$PROJECT_DIR$/proto/test/test.pb.gw.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/test/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/proto/test/test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/testserver.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +46,14 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1lsX3X4W4pKQOOqmZuMH0V4EBgg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,10 +73,41 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="2182" y="439" key="Github.ShareDialog" timestamp="1608470691021">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2182" y="439" key="Github.ShareDialog/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1608470691021" />
+    <state x="2073" y="225" key="Github.UntrackedFilesDialog" timestamp="1608470727654">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2073" y="225" key="Github.UntrackedFilesDialog/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1608470727654" />
     <state x="1852" y="174" key="SettingsEditor" timestamp="1608387446007">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>

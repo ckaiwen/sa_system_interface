@@ -4,4 +4,11 @@ config_version: 3
 http:
   rules:
     - selector: test.Test.SayHello
-      get: "/hello/sayhello"
+      get: "/test/sayhello"
+
+    - selector: test.Test.GetStream
+      get: "/test/getstream"
+    - selector: test.Test.PutStream
+      get: "/test/putstream"
+    - selector: test.Test.AllStream
+      get: "/test/allstream"
