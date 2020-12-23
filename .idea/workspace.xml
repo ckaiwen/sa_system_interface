@@ -26,7 +26,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7d7e2a-6765-42c6-9d01-6290ff53c321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testclient.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +121,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1852" y="174" key="SettingsEditor/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1608387446007" />
+    <state x="2511" y="274" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1608636277781">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2511" y="274" width="800" height="526" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/65.24.1855.1056@1920.0.1920.1080" timestamp="1608636277781" />
     <state x="2085" y="96" width="1655" height="884" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608617546829">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
