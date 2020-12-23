@@ -20,12 +20,12 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:test" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa7d7e2a-6765-42c6-9d01-6290ff53c321" name="Default Changelist" comment="">
+    <list default="true" id="aa7d7e2a-6765-42c6-9d01-6290ff53c321" name="Default Changelist" comment="创建test分支">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../grpc-websocket-proxy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../utils" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +84,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="test" />
                       </list>
                     </value>
                   </entry>
@@ -109,22 +109,28 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2621" y="364" key="#Notifications/1920.0.1920.1080/65.24.1855.1056@1920.0.1920.1080" timestamp="1608617606789" />
+    <state x="2622" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608685236439">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2622" y="341" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/65.24.1855.1056@1920.0.1920.1080" timestamp="1608685236439" />
     <state x="2145" y="92" key="DiffContextDialog" timestamp="1608617734278">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2145" y="92" key="DiffContextDialog/1920.0.1920.1080/65.24.1855.1056@1920.0.1920.1080" timestamp="1608617734278" />
-    <state x="779" y="296" width="424" height="482" key="FileChooserDialogImpl" timestamp="1608628418009">
-      <screen x="65" y="24" width="1855" height="1056" />
+    <state x="2659" y="278" width="424" height="482" key="FileChooserDialogImpl" timestamp="1608687496801">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2659" y="278" key="FileChooserDialogImpl/1920.0.1920.1080/65.24.1855.1056@1920.0.1920.1080" timestamp="1608687496801" />
     <state x="779" y="296" width="424" height="482" key="FileChooserDialogImpl/1920.0.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1608628418009" />
     <state x="1852" y="174" key="SettingsEditor" timestamp="1608387446007">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1852" y="174" key="SettingsEditor/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1608387446007" />
-    <state x="2511" y="274" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1608636277781">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="636" y="292" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1608805675585">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="2511" y="274" width="800" height="526" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/65.24.1855.1056@1920.0.1920.1080" timestamp="1608636277781" />
+    <state x="2511" y="274" width="800" height="526" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/65.24.1855.1056@1920.0.1920.1080" timestamp="1608686835108" />
+    <state x="636" y="292" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1608805675585" />
     <state x="2085" y="96" width="1655" height="884" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608617546829">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

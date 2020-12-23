@@ -1,15 +1,10 @@
-APP=modbustest
 
-protoc:
-	protoc --go_out=plugins=grpc:.  ./proto/test/test.proto
+all_protoc: cq_decode_protoc
 
-http:
-	protoc --grpc-gateway_out=logtostderr=true,grpc_api_configuration=./proto/test/test.yaml:. ./proto/test/test.proto
-run:
-	go run cmd/cmd.go
-test:
-	go run cmd/test.go
-clean:
-	rm -f ${APP}
+cq_decode_protoc:
+	protoc --go_out=plugins=grpc:./gosdk/cq_decode  ./proto/cq_decode/cq_decode.proto ;\
+    protoc --grpc-gateway_out=logtostderr=true,grpc_api_configuration=./proto/cq_decode/cq_decode.http.yaml:./gosdk/cq_decode  ./proto/cq_decode/cq_decode.proto
+
+
 
 
