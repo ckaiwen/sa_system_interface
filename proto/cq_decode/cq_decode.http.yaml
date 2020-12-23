@@ -1,0 +1,12 @@
+type: google.api.Service
+config_version: 3
+
+http:
+  rules:
+    - selector: cq_decode.Decode.SetOut
+      post: "/api/v1/cq_decode/set_out"
+      body: "*"
+
+    - selector: cq_decode.Decode.GetState
+      get: "/api/v1/cq_decode/get_state"  #websocket请求方式
+

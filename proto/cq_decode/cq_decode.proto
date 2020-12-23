@@ -1,0 +1,36 @@
+syntax= "proto3";
+
+package cq_decode;
+
+option go_package = ".;cq_decode";
+
+service Decode{
+  //设置解码器输出
+  rpc SetOut(SetOutRequest) returns (SetOutResponse){}
+  //解码器状态获取
+  rpc GetState(StateRequest) returns (stream StateResponse){}
+}
+
+message Output{
+  uint32 id=1;
+  uint32 value=2;
+}
+
+//设置电磁阀输出请求
+message SetOutRequest{
+  uint32 id=1; //4个字节高两位是通讯口端口号,低２位为485站号
+  repeated Output outputs = 2;
+}
+//设置电磁阀输出响应
+message SetOutResponse{
+}
+
+//电磁阀状态获取请求
+message StateRequest{
+}
+//电磁阀状态获取返回
+message StateResponse{
+  uint32 id=1;//4个字节高两位是通讯口端口号,低２位为485站号
+  repeated Output outputs = 2;
+  float volt = 3 ; //电压值
+}
